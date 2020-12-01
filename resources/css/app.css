@@ -1,0 +1,167 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.bg{
+    background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 255, 0.5)), url('https://media.istockphoto.com/photos/audience-listens-to-the-lecturer-at-the-conference-picture-id974238866')
+}
+
+.bg-dark{
+    background: linear-gradient(rgba(59, 59, 231, 0.5), rgba(61, 61, 241, 0.5)), url('https://media.istockphoto.com/photos/audience-listens-to-the-lecturer-at-the-conference-picture-id974238866')
+
+}
+
+
+.layout{
+    @apply container mx-auto px-12;
+
+}
+
+.font-size-16{
+    font-size: 16px;
+}
+
+.font-size-15{
+    font-size: 15px;
+}
+
+.font-size-14{
+    font-size: 14px;
+}
+
+.font-size-12{
+    font-size: 12px;
+}
+
+.font-size-18{
+    font-size: 18px;
+}
+
+.font-size-20{
+    font-size: 20px;
+}
+
+.font-size-22{
+    font-size: 22px;
+}
+
+.font-size-10{
+    font-size: 10px;
+}
+
+#footer {
+    padding: 0 0 30px;
+    color: #444444;
+    font-size: 14px;
+    background: #f1f6fe;
+}
+
+#footer .footer-top {
+    padding: 60px 0 30px;
+    background: #fff;
+}
+
+#footer .footer-top .footer-contact {
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h3 {
+    font-size: 24px;
+    margin: 0 0 15px;
+    padding: 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+
+#footer .footer-top .footer-contact h3 span {
+    color: #106eea;
+}
+
+#footer .footer-top .footer-contact p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+#footer .footer-top .footer-links {
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: #106eea;
+    font-size: 18px;
+    line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+}
+
+
+#footer .footer-top .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #106eea;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+    background: #3b8af2;
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer .copyright {
+    text-align: center;
+    float: left;
+}
+
+#footer .credits {
+    float: right;
+    text-align: center;
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+
+    #footer .copyright,
+    #footer .credits {
+        float: none;
+        text-align: center;
+        padding: 2px 0;
+    }
+}
+
+.recent-post li {
+    display: block;
+    margin-bottom: 25px
+}
+
+.recent-post li label {
+    float: left;
+    border: 2px solid #373636;
+    padding: 1px 7px;
+    text-align: center
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
