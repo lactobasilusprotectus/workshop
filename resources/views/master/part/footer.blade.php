@@ -32,7 +32,7 @@
                     </ul>
                 </div>
 
-                <div class="mx-auto">
+                <div class="lg:mx-auto">
                     <h4 class="text-lg font-semibold mb-2 dark:text-gray-400">Social Network</h4>
                     <p class="font-sans font-semibold font-size-15 dark:text-gray-400">Temukan kami di </p>
                     <div class="social-links mt-3">

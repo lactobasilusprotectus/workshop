@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7cc08f0c-d1e9-4f58-bb9c-6e87ced34a19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Mail/RegisterConfirmn.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/RegisterConfirmn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/email/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/email/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/master/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/master/part/modal.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/part/modal.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/master/part/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/part/footer.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +160,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -193,7 +193,9 @@
       <workItem from="1606738388841" duration="8999000" />
       <workItem from="1606787880801" duration="9919000" />
       <workItem from="1606825436660" duration="7735000" />
-      <workItem from="1606869129745" duration="2457000" />
+      <workItem from="1606869129745" duration="2888000" />
+      <workItem from="1606893111780" duration="255000" />
+      <workItem from="1606915258429" duration="3483000" />
     </task>
     <servers />
   </component>

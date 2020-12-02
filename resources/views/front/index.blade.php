@@ -201,7 +201,6 @@
                     email: '',
                     whatsapp: '',
                 },
-                message: '',
 
                 submitData() {
                     this.message = ''
