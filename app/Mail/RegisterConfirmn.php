@@ -30,7 +30,7 @@ class RegisterConfirmn extends Mailable
      */
     public function build()
     {
-        return $this->subject('Register Success')
+        return $this->subject('Pendaftaran Berhasil!')
                     ->view('email.register');
     }
 }

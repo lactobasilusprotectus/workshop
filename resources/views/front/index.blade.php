@@ -1,6 +1,6 @@
 @extends('master.master')
 
-@section('title-page', 'workshop')
+@section('title-page', 'Webinar IR LAB')
 
 @section('content')
 
@@ -242,21 +242,6 @@
 
             };
         }
-
-        const html=document.querySelector('html')
-        const btnToggle=document.querySelector('.toggle')
-
-        let status=false;
-
-        btnToggle.addEventListener('click',() => {
-            if (!status) {
-                html.classList.add('dark')
-                status=!status
-            }else{
-                html.classList.remove('dark')
-                status=!status
-            }
-        })
 
     </script>
 

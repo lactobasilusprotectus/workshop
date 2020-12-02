@@ -71,7 +71,7 @@
                         >Close</button>
                         <button
                             id="register"
-                            @click="()"
+                            @click="close()"
                             form="form"
                             type="submit"
                             class="inline-block font-normal text-center px-3 py-2 leading-normal text-base rounded cursor-pointer text-white bg-blue-600"
